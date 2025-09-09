@@ -5,7 +5,6 @@ const int mod = 1e9 + 7;
 
 int powMod(int a, int b) {
     int res = 1;
-
     while (b > 0) {
         if (b & 1) {
             res = 1ll * res * a % mod;
